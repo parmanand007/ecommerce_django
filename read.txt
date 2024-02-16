@@ -1,0 +1,5 @@
+1.pytest.mark- help to differniate differnet type test and able to run differnet type of test
+2.selenium require browser to perform action that's why install webdriver for chrome browser.
+3. if scope="function" then selenium instance will be created for every function rather than module.
+4. we have to pass create_admin_user this as argument in "test_dashboard_admin_login" because when test_create_new_admin_user this test will run it crate user in data base but when "test_dashboard_admin_login" this run datase base rolled back and this test doe'snt get new create user in db when this use created in this tesst "test_create_new_admin_user"
+5.
