@@ -4,3 +4,8 @@
 4. we have to pass create_admin_user this as argument in "test_dashboard_admin_login" because when test_create_new_admin_user this test will run it crate user in data base but when "test_dashboard_admin_login" this run datase base rolled back and this test doe'snt get new create user in db when this use created in this tesst "test_create_new_admin_user"
 5.django_db_blocker = it allow specific code paths to have access database
 6.django_db_setup = this is top-level fixture that ensures that the test databases are created and available
+7. pytest.mark.parametrize = is used to pass multiple parameter
+8. @pytest.mark.dbfixture and @pytest.mark.selenium = if you want to run only dbfixture mark then hit pytest -m "not selenium"
+9. MPTT     = best way to store hierarical (nested type of model)
+10. verbose_name = some time there is field which is not very readable or understandble then we use verbose_name
+11. slugField = generally create url filed of text which we can use in link.
