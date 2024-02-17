@@ -9,3 +9,7 @@
 9. MPTT     = best way to store hierarical (nested type of model)
 10. verbose_name = some time there is field which is not very readable or understandble then we use verbose_name
 11. slugField = generally create url filed of text which we can use in link.
+12. python manage.py dumpdata inventory.category > new.json = this will create json of all object present in cateogories table   -> this will create new.json file having all data in single line
+
+13. python manage.py dumpdata inventory.category --indent 4 > new.json
+14. pytest -m "not selenium" -rP  for printing logs of pytest.marker which is differnet from pytest.mark.selenium
