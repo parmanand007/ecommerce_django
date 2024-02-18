@@ -13,3 +13,5 @@
 
 13. python manage.py dumpdata inventory.category --indent 4 > new.json
 14. pytest -m "not selenium" -rP  for printing logs of pytest.marker which is differnet from pytest.mark.selenium
+15. manage.py commands  all commands are inherit from Base Command class.
+16.
