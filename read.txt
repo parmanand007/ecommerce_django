@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=s3HuIRD5sUY&list=PLOLrQ9Pn6cay_cQkyg-WYYiJ_EKU8KWKh&index=2&ab_channel=VeryAcademy
+
 1.pytest.mark- help to differniate differnet type test and able to run differnet type of test
 2.selenium require browser to perform action that's why install webdriver for chrome browser.
 3. if scope="function" then selenium instance will be created for every function rather than module.
